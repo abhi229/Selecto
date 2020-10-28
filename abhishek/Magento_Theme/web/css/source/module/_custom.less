@@ -1,0 +1,42 @@
+/*Header Changes*/
+.page-header{
+	.header{
+		&.content{
+			.logo{
+				float: right;
+			}
+			.minicart-wrapper{
+				float: left;
+			}
+			.block-search{
+				float: left;
+			}
+		}
+	}
+}
+
+/*Product changes*/
+.product-item{
+	.product-item-info{
+		.product-item-actions{
+			.actions-primary{
+				form{
+					button{
+						&.action{
+							&.tocart{
+								background-color: @btn_primary_bg_color;
+								border-color: @btn_primary_bg_color;
+								border-radius: @btn_border_radius;
+								&:hover{
+									background-color: @btn_primary_bg_color;
+									border-color: @btn_primary_bg_color;
+									border-radius: @btn_border_radius;
+								} 
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
